@@ -1,0 +1,21 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-items: center;
+    grid-template-rows: auto;
+}
+@media (min-width:660px) {
+   .grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }   
+}
+@media (min-width:870px) {
+   .grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }   
+}

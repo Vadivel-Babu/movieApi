@@ -1,0 +1,10 @@
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
